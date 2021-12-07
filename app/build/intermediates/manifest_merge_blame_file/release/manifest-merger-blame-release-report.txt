@@ -1,0 +1,358 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.skipservices"
+4    android:installLocation="internalOnly"
+5    android:versionCode="13"
+6    android:versionName="2.0" >
+7
+8    <uses-sdk
+8-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:9:5-47
+9        android:minSdkVersion="18"
+9-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:9:5-47
+10        android:targetSdkVersion="30" />
+10-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:9:15-44
+11
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:11:5-79
+12-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:11:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:12:5-81
+13-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:12:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:13:5-67
+14-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:13:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:14:5-79
+15-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:14:22-76
+16    <uses-permission android:name="android.permission.READ_LOGS" />
+16-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:15:5-16:47
+16-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:15:22-65
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:17:5-80
+17-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:17:22-77
+18    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+18-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:18:5-82
+18-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:18:22-79
+19    <uses-permission android:name="android.permission.GET_TASKS" />
+19-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:19:5-68
+19-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:19:22-65
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:20:5-78
+20-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:20:22-75
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:11:5-79
+21-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:11:22-76
+22    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+22-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:22:5-75
+22-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:22:22-72
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+23-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:23:5-81
+23-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:23:22-78
+24    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+24-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\254a80972b77913237d16f749f0ad048\play-services-measurement-api-17.2.2\AndroidManifest.xml:24:5-68
+24-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\254a80972b77913237d16f749f0ad048\play-services-measurement-api-17.2.2\AndroidManifest.xml:24:22-65
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fe45dec03baf5e15d54661b3e348c5f7\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+25-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fe45dec03baf5e15d54661b3e348c5f7\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+26-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+26-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+27
+28    <application
+28-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:25:5-81:19
+29        android:name="com.skipservices.utils.MyPersonalApp"
+29-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:26:9-44
+30        android:allowBackup="true"
+30-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:27:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\64b7781469d232890798202388df5fc9\core-1.0.0\AndroidManifest.xml:22:18-86
+32        android:icon="@drawable/ic_launcher_2"
+32-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:28:9-47
+33        android:label="@string/app_name"
+33-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:30:9-41
+34        android:requestLegacyExternalStorage="true"
+34-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:29:9-52
+35        android:theme="@style/AppTheme"
+35-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:32:9-40
+36        android:usesCleartextTraffic="true" >
+36-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:31:9-44
+37        <activity android:name="com.skipservices.EmergencyUpdate" />
+37-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:33:9-62
+37-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:33:19-50
+38        <activity
+38-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:34:9-42:20
+39            android:name="com.skipservices.PopupActivity"
+39-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:35:13-42
+40            android:parentActivityName="com.skipservices.LoginActivity"
+40-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:36:13-56
+41            android:screenOrientation="portrait"
+41-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:37:13-49
+42            android:theme="@style/AppTheme.Dialog" >
+42-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:38:13-51
+43            <meta-data
+43-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:39:13-41:50
+44                android:name="android.support.PARENT_ACTIVITY"
+44-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:40:17-63
+45                android:value=".LoginActivity" />
+45-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:41:17-47
+46        </activity>
+47        <activity
+47-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:43:9-53:20
+48            android:name="com.skipservices.LoginActivity"
+48-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:44:13-42
+49            android:label="@string/app_name"
+49-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:45:13-45
+50            android:screenOrientation="sensorLandscape"
+50-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:46:13-56
+51            android:windowSoftInputMode="stateHidden" >
+51-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:47:13-54
+52            <intent-filter>
+52-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:48:13-52:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:49:17-69
+53-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:49:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:51:17-77
+55-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:51:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <service
+59-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:55:9-62:19
+60            android:name="com.skipservices.Service.MyFirebaseMessagingService"
+60-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:56:13-63
+61            android:enabled="true"
+61-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:57:13-35
+62            android:exported="false" >
+62-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:58:13-37
+63            <intent-filter>
+63-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:59:13-61:29
+64                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+64-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:60:17-78
+64-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:60:25-75
+65            </intent-filter>
+66        </service>
+67
+68        <activity
+68-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:64:9-67:57
+69            android:name="com.skipservices.TaskDetailActivity"
+69-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:65:13-47
+70            android:screenOrientation="sensorLandscape"
+70-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:66:13-56
+71            android:windowSoftInputMode="stateHidden" />
+71-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:67:13-54
+72        <activity
+72-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:68:9-72:57
+73            android:name="com.skipservices.TaskListActivity"
+73-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:69:13-45
+74            android:configChanges="keyboardHidden|orientation|screenSize"
+74-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:70:13-74
+75            android:screenOrientation="sensorLandscape"
+75-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:71:13-56
+76            android:windowSoftInputMode="stateHidden" />
+76-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:72:13-54
+77        <activity
+77-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:73:9-76:57
+78            android:name="com.skipservices.CaptureSignature"
+78-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:74:13-45
+79            android:screenOrientation="sensorLandscape"
+79-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:75:13-56
+80            android:windowSoftInputMode="stateHidden" />
+80-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:76:13-54
+81
+82        <meta-data
+82-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:78:9-80:72
+83            android:name="io.fabric.ApiKey"
+83-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:79:13-44
+84            android:value="72462e2c3dcb5aee4dbb2d210ba14b46498d0b20" />
+84-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:80:13-69
+85
+86        <provider
+86-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\18e70712d5fe85413197d6f319cfd1a5\jetified-crashlytics-2.10.1\AndroidManifest.xml:19:9-23:38
+87            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+87-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\18e70712d5fe85413197d6f319cfd1a5\jetified-crashlytics-2.10.1\AndroidManifest.xml:20:13-75
+88            android:authorities="com.skipservices.crashlyticsinitprovider"
+88-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\18e70712d5fe85413197d6f319cfd1a5\jetified-crashlytics-2.10.1\AndroidManifest.xml:21:13-75
+89            android:exported="false"
+89-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\18e70712d5fe85413197d6f319cfd1a5\jetified-crashlytics-2.10.1\AndroidManifest.xml:22:13-37
+90            android:initOrder="90" />
+90-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\18e70712d5fe85413197d6f319cfd1a5\jetified-crashlytics-2.10.1\AndroidManifest.xml:23:13-35
+91        <!--
+92             FirebaseMessagingService performs security checks at runtime,
+93             but set to not exported to explicitly avoid allowing another app to call it.
+94        -->
+95        <service
+95-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6328d90cb6a3e414dbd7892bfeb74fc0\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:28:9-34:19
+96            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+96-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6328d90cb6a3e414dbd7892bfeb74fc0\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:29:13-82
+97            android:exported="false" >
+97-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6328d90cb6a3e414dbd7892bfeb74fc0\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:30:13-37
+98            <intent-filter android:priority="-500" >
+98-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:59:13-61:29
+99                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+99-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:60:17-78
+99-->D:\Android Projects\NewSkipService\app\src\main\AndroidManifest.xml:60:25-75
+100            </intent-filter>
+101        </service>
+102        <service
+102-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6328d90cb6a3e414dbd7892bfeb74fc0\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:35:9-41:19
+103            android:name="com.google.firebase.components.ComponentDiscoveryService"
+103-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6328d90cb6a3e414dbd7892bfeb74fc0\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:36:13-84
+104            android:directBootAware="true"
+104-->[com.google.firebase:firebase-common:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fde74d4d9570c604b6f4dad921399a51\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+105            android:exported="false" >
+105-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6328d90cb6a3e414dbd7892bfeb74fc0\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:37:13-37
+106            <meta-data
+106-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6328d90cb6a3e414dbd7892bfeb74fc0\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:38:13-40:85
+107                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+107-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6328d90cb6a3e414dbd7892bfeb74fc0\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:39:17-119
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6328d90cb6a3e414dbd7892bfeb74fc0\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:40:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-firestore:21.3.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\227c7152e1d21737f4465026e2721017\jetified-firebase-firestore-21.3.1\AndroidManifest.xml:20:13-22:85
+110                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+110-->[com.google.firebase:firebase-firestore:21.3.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\227c7152e1d21737f4465026e2721017\jetified-firebase-firestore-21.3.1\AndroidManifest.xml:21:17-111
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-firestore:21.3.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\227c7152e1d21737f4465026e2721017\jetified-firebase-firestore-21.3.1\AndroidManifest.xml:22:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\3c5e237dca32a3ebb989ca47bd287dd9\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+113                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+113-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\3c5e237dca32a3ebb989ca47bd287dd9\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\3c5e237dca32a3ebb989ca47bd287dd9\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+115            <meta-data
+115-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\254a80972b77913237d16f749f0ad048\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+116                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+116-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\254a80972b77913237d16f749f0ad048\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\254a80972b77913237d16f749f0ad048\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fe45dec03baf5e15d54661b3e348c5f7\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+119                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+119-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fe45dec03baf5e15d54661b3e348c5f7\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fe45dec03baf5e15d54661b3e348c5f7\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+121        </service>
+122
+123        <receiver
+123-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fe45dec03baf5e15d54661b3e348c5f7\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+124            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+124-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fe45dec03baf5e15d54661b3e348c5f7\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+125            android:exported="true"
+125-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fe45dec03baf5e15d54661b3e348c5f7\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+126            android:permission="com.google.android.c2dm.permission.SEND" >
+126-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fe45dec03baf5e15d54661b3e348c5f7\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+127            <intent-filter>
+127-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fe45dec03baf5e15d54661b3e348c5f7\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+128                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+128-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fe45dec03baf5e15d54661b3e348c5f7\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+128-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fe45dec03baf5e15d54661b3e348c5f7\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+129            </intent-filter>
+130        </receiver>
+131
+132        <provider
+132-->[com.google.firebase:firebase-common:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fde74d4d9570c604b6f4dad921399a51\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+133            android:name="com.google.firebase.provider.FirebaseInitProvider"
+133-->[com.google.firebase:firebase-common:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fde74d4d9570c604b6f4dad921399a51\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+134            android:authorities="com.skipservices.firebaseinitprovider"
+134-->[com.google.firebase:firebase-common:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fde74d4d9570c604b6f4dad921399a51\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+135            android:exported="false"
+135-->[com.google.firebase:firebase-common:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fde74d4d9570c604b6f4dad921399a51\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+136            android:initOrder="100" />
+136-->[com.google.firebase:firebase-common:19.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\fde74d4d9570c604b6f4dad921399a51\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+137
+138        <activity
+138-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+139            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+139-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+140            android:exported="false"
+140-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+141-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+142
+143        <receiver
+143-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+144            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+144-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+145            android:enabled="true"
+145-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+146            android:exported="false" >
+146-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+147        </receiver>
+148        <receiver
+148-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+149            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+149-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+150            android:enabled="true"
+150-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+151            android:exported="true"
+151-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+152            android:permission="android.permission.INSTALL_PACKAGES" >
+152-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+153            <intent-filter>
+153-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+154                <action android:name="com.android.vending.INSTALL_REFERRER" />
+154-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+154-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+155            </intent-filter>
+156        </receiver>
+157
+158        <service
+158-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+159            android:name="com.google.android.gms.measurement.AppMeasurementService"
+159-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+160            android:enabled="true"
+160-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+161            android:exported="false" />
+161-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+162        <service
+162-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+163            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+163-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+164            android:enabled="true"
+164-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+165            android:exported="false"
+165-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+166            android:permission="android.permission.BIND_JOB_SERVICE" />
+166-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\117efdceb1dfc6822e711e36c063391e\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+167
+168        <meta-data
+168-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\df00cd04eda390f0be580f91dc36cd57\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+169            android:name="com.google.android.gms.version"
+169-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\df00cd04eda390f0be580f91dc36cd57\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+170            android:value="@integer/google_play_services_version" />
+170-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\df00cd04eda390f0be580f91dc36cd57\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+171
+172        <service
+172-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7bd56e13de0c5d815510e43747a67f2a\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+173            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+173-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7bd56e13de0c5d815510e43747a67f2a\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+174            android:exported="false" >
+174-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7bd56e13de0c5d815510e43747a67f2a\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+175            <meta-data
+175-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7bd56e13de0c5d815510e43747a67f2a\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+176                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+176-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7bd56e13de0c5d815510e43747a67f2a\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+177                android:value="cct" />
+177-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7bd56e13de0c5d815510e43747a67f2a\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+178        </service>
+179        <service
+179-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\dbd6214fdd373b6035c1165c3e5bcf52\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+180            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+180-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\dbd6214fdd373b6035c1165c3e5bcf52\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+181            android:exported="false"
+181-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\dbd6214fdd373b6035c1165c3e5bcf52\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+182            android:permission="android.permission.BIND_JOB_SERVICE" >
+182-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\dbd6214fdd373b6035c1165c3e5bcf52\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+183        </service>
+184
+185        <receiver
+185-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\dbd6214fdd373b6035c1165c3e5bcf52\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+186            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+186-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\dbd6214fdd373b6035c1165c3e5bcf52\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+187            android:exported="false" />
+187-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\dbd6214fdd373b6035c1165c3e5bcf52\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+188    </application>
+189
+190</manifest>

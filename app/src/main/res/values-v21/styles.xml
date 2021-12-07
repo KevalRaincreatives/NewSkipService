@@ -1,0 +1,33 @@
+<resources>
+
+    <!--
+        Base application theme for API +. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 21+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. -->
+
+
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/app_headerblue</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/app_headerblue</item>
+
+        <!--
+             colorAccent is used as the default value for colorControlActivated
+             which is used to tint widgets
+        -->
+        <item name="colorAccent">@color/app_headerblue</item>
+        <item name="android:navigationBarColor">@color/app_headerblue</item>
+
+        <!--
+             You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight & colorSwitchThumbNormal.
+        -->
+    </style>
+
+   
+</resources>

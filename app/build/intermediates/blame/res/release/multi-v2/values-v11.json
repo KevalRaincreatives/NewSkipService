@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Android Projects\\NewSkipService\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "D:\\Android Projects\\NewSkipService\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "5",
+                        "startOffsets": "178",
+                        "endLines": "28",
+                        "endColumns": "12",
+                        "endOffsets": "1037"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "24",
+                        "endColumns": "12",
+                        "endOffsets": "914"
+                    }
+                }
+            ]
+        }
+    ]
+}

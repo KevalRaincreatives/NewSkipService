@@ -1,0 +1,7 @@
+#Thu Dec 02 21:09:42 IST 2021
+base.0=D\:\\Android Projects\\NewSkipService\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\Android Projects\\NewSkipService\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes2.dex

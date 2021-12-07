@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "773176777336",
+    "firebase_url": "https://skipoffline.firebaseio.com",
+    "project_id": "skipoffline",
+    "storage_bucket": "skipoffline.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773176777336:android:d35cbfb28bf828a3502b8d",
+        "android_client_info": {
+          "package_name": "com.skipservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773176777336-0eeurj4i2h5sdhp8qqspa8m57iita9ek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skipservices",
+            "certificate_hash": "e893714255c609988bd08a4af614ca8385e5812b"
+          }
+        },
+        {
+          "client_id": "773176777336-m7gkrp8ta89nmbqgqqa4rrnv8g335nk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzv7yW3O7TQVCyg-ZSS7hNnDjkNQYY7vM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773176777336-m7gkrp8ta89nmbqgqqa4rrnv8g335nk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
